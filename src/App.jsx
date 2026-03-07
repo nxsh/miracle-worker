@@ -41,20 +41,20 @@ function App() {
         <div className="reviews">
           <div className="review">
             <p className="review__quote">
-              A profoundly moving piece of theatre that captures the raw
-              struggle and ultimate triumph of human connection.
+              A truly exceptional production &mdash; I watched, suffered, and
+              enjoyed a masterpiece of theatrical performance.
             </p>
             <p className="review__attribution">
-              &mdash; Daryl Back, Artistic Director, One From The Heart
+              &mdash; Audience member
             </p>
           </div>
           <div className="review">
             <p className="review__quote">
-              The portrayal of the clash of wills, both mental and physical,
-              was tremendously exciting.
+              Thank you for staging this truly exceptional production of
+              The Miracle Worker at the Cramphorn Theatre.
             </p>
             <p className="review__attribution">
-              &mdash; Production Programme
+              &mdash; Audience member
             </p>
           </div>
         </div>
@@ -71,6 +71,19 @@ function App() {
             <source src="/Miracle worker Theme1 - Nigel Lewis - 19_08_2021, 14.37.m4a" type="audio/mp4" />
             Your browser does not support the audio element.
           </audio>
+        </div>
+      </section>
+
+      <div className="divider" />
+
+      {/* Video */}
+      <section className="section video-section">
+        <h2 className="section__heading">Programme Slideshow</h2>
+        <div className="video-player">
+          <video controls preload="metadata">
+            <source src="/miracle-worker-slideshow.mp4" type="video/mp4" />
+            Your browser does not support the video element.
+          </video>
         </div>
       </section>
 
@@ -193,8 +206,6 @@ function App() {
           </div>
         </div>
       </section>
-
-      <div className="divider" />
 
       {/* Presented by arrangement */}
       <footer className="footer">
