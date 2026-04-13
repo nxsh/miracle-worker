@@ -19,8 +19,6 @@ function App() {
         </div>
       </header>
 
-      <div className="divider" />
-
       {/* Production Images & Reviews */}
       <section className="section">
         <div className="gallery">
