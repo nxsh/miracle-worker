@@ -205,6 +205,18 @@ function App() {
             </div>
           </div>
         </div>
+
+        <h3 className="section__heading section__heading--sub">Full Programme</h3>
+        <div className="programme-pages">
+          {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
+            <img
+              key={num}
+              src={`/programme/page-${num}.jpg`}
+              alt={`Programme page ${num}`}
+              className="programme-pages__img"
+            />
+          ))}
+        </div>
       </section>
 
       {/* Presented by arrangement */}
